@@ -1,0 +1,80 @@
+header{
+/*text-decoration: none;
+color: #000;*/ /*This one is not needed*/
+margin:4em;
+word-spacing: 5em;
+margin-left: -42em;
+
+}
+/*nav{
+  text-decoration: none;
+  color: #00FF00;
+}*//* This one is not needed*/
+a{
+  color: #000;
+  text-decoration: none;
+}
+
+body{
+  text-align: center;
+  background: url("images/Designer-using-graphics-tablet.jpg");
+  background-size: cover;
+  font-family: helvetica;
+}
+
+h1{
+  letter-spacing: 15px;
+  font-weight: 100;
+  margin-top: -5em;
+  margin-left: 66em;
+
+}
+
+hr{
+}
+
+h3{
+  font-style: italic;
+  margin-top: 4.5em;
+  font-size: 2.5em;
+
+}
+
+h1{
+font-size: 16px;
+}
+
+div{
+  border: 1px solid black;
+  margin-right: 8em;
+  margin-left: 8em;
+}
+#bg {
+  background: rgba(255,255,255,.4);
+
+}
+
+p{
+  margin-left: 3em;
+  margin-right: 3em;
+ /* display: block; color: #FFF;*/
+}
+.smaller_heading {
+  font-size: 1.5em;
+  font-weight:bold;
+}
+.email{
+text-align: right;
+margin-right: 8em;
+font-weight: bolder;
+color: #757575;
+
+}
+
+li{
+  margin-top: 2em;
+  line-height: 0.7em;
+  /*font-weight: lighter;*/
+  text-align: center;
+  list-style-type: none;
+}
