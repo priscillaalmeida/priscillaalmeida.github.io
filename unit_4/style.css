@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,500);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700italic,900,900italic,700);
+@import url(https://fonts.googleapis.com/css?family=Quattrocento);
+
+header{
+/*text-decoration: none;
+color: #000;*/ /*This one is not needed*/
+margin:4em;
+word-spacing: 5em;
+margin-left: -42em;
+font-family: 'Raleway', sans-serif;
+
+}
+nav{
+/*  text-decoration: none;*/
+letter-spacing: 2px;
+/*  color: #00FF00; <--This is not sh0wing***/
+}
+   /*This one is not needed*/
+a{
+  color: #000;
+  text-decoration: none;
+}
+
+body{
+  text-align: center;
+  background: url("images/Designer-using-graphics-tablet.jpg");
+  background-size: cover;
+  /*font-family: helvetica;
+/*  font-family: 'Raleway', sans-serif;*/
+}
+
+h1{
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 15px;
+  font-weight: 100;
+  margin-top: -5em;
+  margin-left: 66em;
+  font-size: 16px;
+
+}
+
+hr{
+}
+
+h3{
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: .01em;
+  /*font-family: 'Playfair', 900 italic;*/
+  /*font-style: italic;*/
+  margin-top: 4.5em;
+  font-size: 2em;
+
+}
+
+
+div{
+  border: 1px solid black;
+  margin-right: 30em;
+  margin-left: 30em;
+  margin-top: -0.5em;
+  text-align: justify;
+  line-height: 1.5em;
+
+}
+#bg {
+/*  background: rgb(255,255,255);*/
+  background: rgba(255,255,255,0);
+
+}
+
+p{
+  margin-left: 3em;
+  margin-right: 3em;
+  font-family: 'Playfair', 'Quattrocento' 400;
+ /* display: block; color: #FFF;*/
+}
+.smaller_heading {
+  font-family: 'Playfair', 700;
+  font-size: 1.5em;
+
+}
+
+li{
+/*  font-family: 'Playfair', 400;*/
+  font-size: 400;
+  margin-top: 2em;
+  line-height: 0.5em;
+  /*font-weight: lighter;*/
+  text-align: center;
+  list-style-type: none;
+  margin-left: -2.5em
+
+}
+
+.email{
+  margin-top: 9em;
+  font-family: 'Raleway', sans-serif;
+  text-align: right;
+  margin-right: 7em;
+  font-weight: bolder;
+  color: #757575;
+
+}
+
+
+
