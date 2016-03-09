@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,500);
-@import url(https://fonts.googleapis.com/css?family=Quattrocento);
+@import url(https://fonts.googleapis.com/css?family=Quattrocento:400,700);
 
 *{ margin:0; padding:0;box-sizing: border-box;
 }
@@ -18,6 +18,7 @@ body{
 
 nav{
   margin-bottom: -17px;
+ /* visibility: hidden;*/
 }
 
 .navz{
@@ -53,6 +54,10 @@ h1{
   text-align: right;
   padding-right: 72px;
 }
+
+/*  h2{
+  visibility: hidden;
+  }*/
 
 /*hr{}*/
 #logoparent{
@@ -90,7 +95,7 @@ h1:hover{
  
 div{
   /*background: gray;*/
-/*  border:3px solid #000;*/
+ /* border:3px solid #000;*/
   /*width: 200px;*/
   /*width: 33.33%;  no space between container*/
   width: 33.33%;
@@ -221,6 +226,10 @@ footer{
       margin-top:0.05em;
     }
 
+ /*   h2{
+      visibility: hidden;
+    }*/
+
     .wrapper{
       margin: auto;
       width:100%
@@ -259,6 +268,159 @@ figcaption{
 }
     
 }
+
+@media only screen and (max-width: 320px){
+
+    body{
+      font-size: 16px;
+    } 
+
+    nav{
+      margin-bottom: -17px;
+      visibility: hidden;
+    }
+
+    h1{
+    visibility: hidden;
+    }
+  h3{
+  padding-left: 12.25em;
+  padding-top: 1em;
+  }
+
+  h2{
+    position: fixed;
+    color: rgb(37, 37, 39);
+    top:102px;
+    left:98px;
+    padding-top: 11px;
+    letter-spacing:7px;
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 300;
+    font-size: 16px
+    }
+
+    h2:hover{
+     /*color: #756C6F;*/
+      color: rgb(181, 181, 181);
+    }
+
+
+    #logoparent{
+      width:320px;
+      margin-top: 1em;
+    }
+
+    #logo{
+      width:85px;
+      position: fixed;
+      top: 30px;
+      left:119px;
+      margin: auto;
+      padding-top: 5px;
+    }
+
+    .wrapper{
+      margin: auto;
+      width:600%;
+      display:flex;
+      margin-top: 25%;
+      margin-bottom:4px;
+    }
+
+    div{
+ /*   border:3px solid #000;*/
+    width: 100%;
+    height: 324px;
+    float: left;
+    overflow:hidden;
+    }
+
+    figure:hover>figcaption{
+    display: block;
+    position: relative;
+     top: 0;
+    left:0;
+    }
+
+  figcaption{
+   /* background: #5D5054;
+  background: #756C6F;
+  display: none;
+  position: absolute;
+  width:100%;
+  top: 130px;
+ /* left:0px;*/
+  font-size: 11px;
+  color: #fff;
+  text-align: center;
+  padding:11px 0px 15px 0px;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 10px;
+  font-weight: 100;
+  }
+    
+      #one{
+      width:193%;
+      margin-left: -145px;
+      margin-top: -54px;
+    }
+
+      #two{
+      width: 104%;
+      margin-left: -9px;
+      margin-top: -2px;
+    }
+
+    #three{
+      width: 119%;
+      margin-left: -33px;
+      margin-top: -2px;
+    }
+
+    #four{
+      width: 130%;
+      margin-left: -73px;
+      margin-top: -31px;
+    }
+
+    #five{
+      width: 197%;
+      margin-left: -1px;
+      margin-top: -7px;
+    }
+
+    #six{
+      width: 133%;
+      margin-left: -68px;
+      margin-top: -52px;
+    }
+
+
+    p{
+      visibility: hidden;
+    }
+    a{
+      position: fixed;
+      color: rgb(37, 37, 39);
+      text-decoration: none;
+      letter-spacing: 3px;
+      margin:1%;
+    /*  word-spacing: 0em;*/
+      margin-left: -4.3%;
+      font-family: 'Quattrocento', sans-serif;
+      font-weight: 700;
+      font-size: 17px;
+      }
+
+      a:hover{
+     /*color: #756C6F;*/
+      color: rgb(181, 181, 181);
+    }
+
+}
+
+
 
 
 
